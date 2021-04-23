@@ -1,8 +1,5 @@
 import copy
 
-# method to rotate a face clockwise 90 degrees.
-# Each tile on the face is replaced by one one two positions down, in a clockwise manner
-
 
 def rotate_target_face_clockwise(rubiks_cube_layout, ynum, xnum):
     # method to rotate a face clockwise 90 degrees.
