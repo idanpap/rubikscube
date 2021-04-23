@@ -1,6 +1,8 @@
 # Rubiks Cube
 
-Rubiks Cube is a program that simulates a Rubik's cube and is delivered through the console and is built using Python.
+Rubiks Cube is a program that simulates a Rubik's cube and is delivered through the console
+
+It is built using Python.
 
 It offers basic functionality, with the user starting with a completed Rubik's cube and can perform the following actions:
 
