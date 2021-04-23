@@ -6,7 +6,7 @@ import copy
 
 def rotate_target_face_clockwise(rubiks_cube_layout, ynum, xnum):
     # method to rotate a face clockwise 90 degrees.
-    # Each tile on the face is replaced by one one two positions down, in a clockwise manner
+    # Each tile on the face is replaced by one two positions down, in a clockwise manner
 
     # saves values that will be replaced to be used further down
     placeholder_values = [rubiks_cube_layout[ynum-1]
@@ -29,10 +29,10 @@ def rotate_target_face_clockwise(rubiks_cube_layout, ynum, xnum):
 
 
 def rotate_target_face_anticlockwise(rubiks_cube_layout, ynum, xnum):
-    # method to rotate a tile anticlockwise 90 degrees
-    # Each tile on the face is replaced by one one two positions down, in an anticlockwise manner
+    # method to rotate a face anticlockwise 90 degrees
+    # Each tile on the face is replaced by one two positions down, in an anticlockwise manner
 
-    # saves values that will be replaced to be used further down
+    # saves values that will be replaced, to be used further down
     placeholder_values = [rubiks_cube_layout[ynum-1]
                           [xnum-1], rubiks_cube_layout[ynum-1][xnum]]
     rubiks_cube_layout[ynum-1][xnum -
